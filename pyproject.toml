@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holdover"
+version = "0.1.0"
+description = "Will today's milk stay cold through the next power cut, and what should the milk centre do so it does?"
+authors = [{ name = "Aslan Shaukat Vaida" }]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy", "pandas", "scikit-learn>=1.4",
+  "campus_energy_forecaster @ git+https://github.com/aslanvaida/campus-energy-forecaster@2944735",
+]
+
+[tool.setuptools]
+packages = ["holdover"]
