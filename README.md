@@ -105,6 +105,10 @@ The mini-fridge prototype is how we will measure the insulation and cooling numb
 - an SMS/WhatsApp gateway (for example Twilio);
 - the prototype test of predicted vs actual time before the water passes 4°C.
 
+## Explainer
+
+The GSC idea explainer is in [`docs/explainer.md`](docs/explainer.md).
+
 ## Run it
 
 Needs Python 3.10+.
